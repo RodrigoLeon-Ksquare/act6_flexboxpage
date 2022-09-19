@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d6e1ff;
+  min-height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.main_container {
+  height: 800px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/*Left section*/
+.left {
+  position: relative;
+  width: 500px;
+  height: 100%;
+  margin: auto;
+  color: #15263f;
+}
+.form {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: gray;
+}
+form {
+  width: 100%;
+  margin-left: 20px;
+}
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+
+form input {
+  width: 320px;
+  height: 35px;
+  padding: 12px;
+  font-size: 1.125rem;
+  border: none;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 8px;
+}
+.form_element {
+  display: flex;
+}
+label[for="box"] {
+  font-size: 0.875rem;
+}
+input[type="checkbox"] {
+  width: auto;
+  margin-top: 12px;
+}
+
+.text {
+  margin-top: 18px;
+  margin-left: 12px;
+}
+
+button {
+  width: 320px;
+  height: 35px;
+  margin: 20px auto;
+  border: none;
+  background-color: #15263f;
+  color: white;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #d6e1ff;
+  color: #15263f;
+}
+.sign_up {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+/*right section*/
+.right {
+  position: relative;
+}
+.profile_picture {
+  height: 800px;
+  width: 600px;
+  border-radius: 8px;
+}
+.opinion_container {
+  position: absolute;
+  top: 55%;
+  padding: 16px;
+  margin: auto 16px;
+  backdrop-filter: blur(10px);
+}
+
+.opinion_container p {
+  color: #fff;
+}
+
+.opinion_paragraph {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.calification_container {
+  margin-bottom: 16px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.charge_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.charge_paragraph {
+  font-size: 1.125rem;
+}
+.left_arrow,
+.right_arrow {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+}
+
+.left_arrow {
+  margin-right: 42px;
+}
