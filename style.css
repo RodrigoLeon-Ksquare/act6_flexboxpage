@@ -16,7 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .main_container {
-  height: 800px;
+  height: 600px;
   display: flex;
   background-color: #fff;
   border-radius: 8px;
@@ -37,13 +37,13 @@ body {
 }
 .title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.125rem;
   margin-bottom: 12px;
 }
 
 .subtitle {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: gray;
 }
 form {
@@ -53,14 +53,14 @@ form {
 form label {
   display: flex;
   margin-top: 20px;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
 }
 
 form input {
   width: 320px;
   height: 35px;
   padding: 12px;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   border: none;
   border: 1px solid gray;
   outline: none;
@@ -108,8 +108,8 @@ button:hover {
   position: relative;
 }
 .profile_picture {
-  height: 800px;
-  width: 600px;
+  height: 600px;
+  width: 500px;
   border-radius: 8px;
 }
 .opinion_container {
@@ -125,13 +125,13 @@ button:hover {
 }
 
 .opinion_paragraph {
-  font-size: 2rem;
+  font-size: 1.125rem;
   margin-bottom: 16px;
 }
 
 .calification_container {
   margin-bottom: 16px;
-  font-size: 2rem;
+  font-size: 1.125rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,7 +143,7 @@ button:hover {
 }
 
 .charge_paragraph {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 .left_arrow,
 .right_arrow {
